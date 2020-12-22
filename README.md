@@ -73,7 +73,7 @@ python code.py
 
 Now enter path relative to the pdf in the prompt.<br>
 The tables present in pdf are parsed and gets stored in task3a database.<br>
-Tables follow a specific format: tbl*{1}*{2} where {1} is the table number and {2} is the md5 hash of pdf file.
+Tables follow a specific format: tbl\_{1}\_{2} where {1} is the table number and {2} is the md5 hash of pdf file.
 
 To dump the tables from Mongo Database:
 
