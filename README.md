@@ -73,9 +73,9 @@ python code.py
 
 Now enter path relative to the pdf in the prompt.<br>
 The tables present in pdf are parsed and gets stored in task3a database.<br>
-Tables follow a specific format: tbl\_{1}\_{2} where {1} is the table number and {2} is the md5 hash of pdf file.
+Tables (collections) follow a specific format: tbl\_{1}\_{2} where {1} is the table number and {2} is the md5 hash of pdf file.
 
-To dump the tables from Mongo Database:
+To dump the collections from Mongo Database:
 
 ```
 mongodump --db task3a
@@ -113,7 +113,7 @@ Report of this jupyter-notebook is present in Report.pdf<br>
 The parsed data is stored in task3b database in following collections: badges, tags, users, votes, posts<br>
 dump can be downloaded by the link present in dump_link file.
 
-To dump the tables from Mongo Database:
+To dump the collections from Mongo Database:
 
 ```
 mongodump --db task3b
