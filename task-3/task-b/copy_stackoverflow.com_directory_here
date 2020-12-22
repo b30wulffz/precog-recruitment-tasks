@@ -1,0 +1,13 @@
+Please copy stackoverflow.com directory here.
+
+To download: https://drive.google.com/file/d/1QTVwoZReZudfKkapWTUBvi0T9YCaLXX9/view
+Extract the zipped file in stackoverflow.in folder such that directory structure looks like:
+- stackoverflow.com/
+    - Badges.xml
+    - Posts.xml
+    - Tags.xml
+    - Users.xml
+    - Votes.xml
+-  dump_link
+-  Report.pdf
+-  Task 3b.ipynb
